@@ -1,0 +1,43 @@
+body{
+    background-color: #aabfeb;
+}
+.profil-page{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+#sign-up-form{
+    width: 100%;
+}
+
+#sign-up-update{
+    display: block;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#register{
+    cursor: pointer;
+    background-color: #213253;
+    border-radius: 2px;
+    width: 4em;
+    margin: 10px;
+    color: cornsilk;
+}
+#login{
+    cursor: pointer;
+    background-color: #213253;
+    border-radius: 2px;
+    width: 4em;
+    margin: 10px;
+    color: cornsilk;
+}
+#register:hover{
+    background-color: cornsilk;
+    color: black;
+}
+#login:hover{
+    background-color: cornsilk;
+    color: black;
+}
+

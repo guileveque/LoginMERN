@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #213253;
+    color: cornsilk;
+    
+}
+
+.info{
+    height: auto;
+    font-size: 3em;
+    margin-top: auto;
+}
+
+.profil_link {
+    height: 30px;
+    margin-top: auto;
+    border-bottom: cornsilk 4px solid;
+}
+
+.profil_link:hover {
+    background-color: cornsilk;
+    border-radius: 2px;
+}
+
+.update_link {
+    height: 30px;
+    margin-top: auto;
+    border-bottom: cornsilk 4px solid;
+}
+
+.update_link:hover {
+    background-color: cornsilk;
+    border-radius: 2px;
+}
+
+#root>div:nth-child(1)>nav>div>div.profil_link>a {
+    color: cornsilk;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#root>div:nth-child(1)>nav>div>div.profil_link>a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#root>div:nth-child(1)>nav>div>div.update_link>a {
+    color: cornsilk;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#root>div:nth-child(1)>nav>div>div.update_link>a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.logout{
+    cursor: pointer;
+}
+.logout:hover{
+    background-color: cornsilk;
+    color: black;
+    border-radius: 2px;
+}
